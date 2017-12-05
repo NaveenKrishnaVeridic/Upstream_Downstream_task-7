@@ -7,7 +7,7 @@ stages
 }
   stage('execute downstream job')
 {	steps {echo "trigger build of the next job"
-		build job: 'task 7 upstream job'}
+		build job: 'task 7 trigger job'}
 } }
 }
 
